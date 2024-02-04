@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(concert-3387324_1280.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.keys{
+    display: flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    color: #fff;
+    padding: 1rem .5rem;
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    background-color: rgba(0, 0, 0, .2);
+    border: 1px solid rgba(163, 64, 64, 0.2);
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all 0.1s;
+    width: 10rem;
+
+}
+.playing{
+    transform: scale(1.1);
+    border-color :#ffc600;
+    box-shadow: 0 0 10px #ffc600;
+    
+}
+
+kbd {
+    display: block;
+   
+  }
+  
+  .sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+    color: #ffc600;
+  }
